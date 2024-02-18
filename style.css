@@ -52,8 +52,8 @@ a {
 }
 
 a:hover {
-    color: hsla(0, 0%, 100%, 0.546);
-    transition-duration: .3s;
+    transition-duration: .5s;
+    transform: scale(1.5);
 }
 
 
