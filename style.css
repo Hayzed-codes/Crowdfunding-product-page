@@ -31,15 +31,21 @@
     z-index: 1;
 }
 
-.head .navBar {
+
+.navBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 10rem;
-    font-family: "Commissioner", sans-serif;;
 }
 
-.navBar .navList {
+.menu {
+    display: none;
+}
+
+
+
+.navList {
     list-style: none;
     display: flex;
     gap: 20px;
@@ -129,6 +135,7 @@ a:hover {
     background: var(--BG-COLOR);
     color: var(--COLOR);
     border: none;
+    
 }
 
 .back:hover, .reward:hover {
@@ -153,6 +160,10 @@ a:hover {
     width: 40px;
     height: 40px;
     border-right: 100px;
+}
+
+#mage{
+    display: none;
 }
 
 .marks:hover {
@@ -357,3 +368,5 @@ a:hover {
     color: var(--COLOR);
     border: none;
 }
+
+
